@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageIcon>icon.png</PackageIcon>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>YouGileAPI</Title>
+        <Authors>AnorakWatts</Authors>
+        <Description>RestAPI_for_YouGile</Description>
+        <Version>1.1.0</Version>
+        <PackageIcon>icon.png</PackageIcon>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="icon.png" Pack="true" PackagePath=""/>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="RestSharp" Version="110.2.1-alpha.0.16" />
+    </ItemGroup>
+
+</Project>
